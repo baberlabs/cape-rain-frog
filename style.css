@@ -13,8 +13,8 @@ html {
 body {
   width: 100%;
   min-height: 100vh;
-  background-color: #111;
-  color: #eee;
+  background-color: #eee;
+  color: #111;
 }
 
 header {
@@ -39,7 +39,7 @@ header nav {
 header nav a {
   text-decoration: none;
   font-weight: bold;
-  color: #eee;
+  color: #111;
 }
 
 main {
@@ -98,11 +98,20 @@ footer {
   background-color: #333;
   justify-content: center;
   align-items: center;
-  height: 400px;
   margin-top: 100px;
+  padding-top: 4rem;
   gap: 1rem;
+  color: #eee;
 }
 
 footer a {
-  color: white;
+  color: #eee;
+}
+
+footer .copyright {
+  background-color: #111;
+  margin-top: 2rem;
+  padding: 1rem 0;
+  text-align: center;
+  width: 100%;
 }
