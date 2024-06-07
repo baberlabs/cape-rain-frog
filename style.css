@@ -36,12 +36,21 @@ header nav {
   display: flex;
   flex-direction: row;
   gap: 3rem;
+  align-items: center;
+  justify-content: center;
 }
 
 header nav a {
   text-decoration: none;
   font-weight: bold;
   color: #eee;
+}
+
+header nav .cta-link {
+  padding: 0.8rem;
+  background-color: cyan;
+  color: #111;
+  border-radius: 0.5rem;
 }
 
 main {
